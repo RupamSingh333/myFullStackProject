@@ -7,6 +7,7 @@ const userDataArr = [
   { email: "admin@doomshell.com", password: "12345", username: "Rupam Singh" },
 ];
 
+
 export const loginUser = async (email, password) => {
   try {
     const response = await axios.post(`${API_BASE_URL}/login`, {
