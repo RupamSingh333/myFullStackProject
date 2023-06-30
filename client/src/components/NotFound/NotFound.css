@@ -1,0 +1,30 @@
+.not-found-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.not-found-heading {
+    font-size: 72px;
+    color: #ff3366;
+    margin-bottom: 20px;
+}
+
+.not-found-text {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.not-found-link {
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff3366;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.not-found-link:hover {
+    background-color: #cc0033;
+}

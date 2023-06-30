@@ -1,0 +1,40 @@
+.imges{
+        width: 270px; 
+        height: 150px;
+        
+}
+.productcatgorytext{
+ font-size: 20px;
+text-align: center;
+ position: relative;
+ color: black;
+ font-size: 46px;
+}
+.productcatgorytext::after{
+        position: absolute;
+        width: 446px;
+        height: 4px;
+        content: '';
+        background-color: black;
+        top: 35px;
+        right: 0;
+
+       }
+       .productcatgorytext::before {
+        position: absolute;
+        width: 446px;
+        height: 4px;
+        content: '';
+        background-color: black;
+        top: 35px;
+        left: 0;
+    }
+.catgoryimg{
+        width: 150px; 
+        height: 150px;
+border-radius:60%
+}
+.catgoryBox{
+        width: 130px;
+    height: 96px;
+}

@@ -1,0 +1,118 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #8a2b06;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgba(235, 225, 225, 0.25);
+  z-index: 10;
+}
+
+.main-image {
+  width: 100%;
+  height: 25rem;
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.main-image img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 1rem;
+  /* Add margin to push the logo to the left */
+}
+
+.logo:hover {
+  text-decoration: none !important;
+}
+
+.logo:focus {
+  text-decoration: none !important;
+}
+
+
+.logo h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(160, 142, 142, 0.5);
+}
+
+.header button {
+  margin-right: 1rem;
+}
+
+.header .MuiBadge-badge {
+  background-color: #f44336;
+  /* Choose a suitable color for the cart badge */
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* Ensure the container has a height to center vertically */
+}
+
+.search-container {
+  position: absolute;
+  top: 180px;
+  /* Adjust the top value as per your desired position */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  margin-left: 10px;
+  /* Add margin between input and button */
+  padding: 8px 16px;
+  background-color: #8a2b06;
+  border: none;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  /* Adjust the image size as needed */
+  max-height: 100%;
+  /* Adjust the image size as needed */
+}
+
+.search-container input[type="text"] {
+  font-size: 25px;
+  border: none;
+  text-align: center;
+  width: 80%;
+  /* Adjust the width as per your requirements */
+  margin: 0 auto;
+  /* Centers the search box horizontally */
+}
+
